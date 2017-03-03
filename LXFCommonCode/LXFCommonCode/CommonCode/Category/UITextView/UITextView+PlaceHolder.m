@@ -1,0 +1,51 @@
+//
+//  UITextView+PlaceHolder.m
+//  LXFCommonCode
+//
+//  Created by 林洵锋 on 2017/3/3.
+//  Copyright © 2017年 LXF. All rights reserved.
+//
+//  GitHub: https://github.com/LinXunFeng
+//  简书: http://www.jianshu.com/users/31e85e7a22a2
+
+#import "UITextView+PlaceHolder.h"
+
+static const char *phTextView = "placeHolderTextView";
+
+@implementation UITextView (PlaceHolder)
+
+- (UITextView *)placeHolderTextView {
+    return objc_getAssociatedObject(self, phTextView);
+}
+- (void)setPlaceHolderTextView:(UITextView *)placeHolderTextView {
+    objc_setAssociatedObject(self, phTextView, placeHolderTextView, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+- (void)addPlaceHolder:(NSString *)placeHolder {
+    if (![self placeHolderTextView]) {
+        self.delegate = self;
+        UITextView *textView = [[UITextView alloc] initWithFrame:self.bounds];
+        textView.autoresizingMask = UIViewAutoresizingFlexibleHeight | UIViewAutoresizingFlexibleWidth;
+        textView.font = self.font;
+        textView.backgroundColor = [UIColor clearColor];
+        textView.textColor = [UIColor grayColor];
+        textView.userInteractionEnabled = NO;
+        textView.text = placeHolder;
+        [self addSubview:textView];
+        [self setPlaceHolderTextView:textView];
+    }
+}
+# pragma mark -
+# pragma mark - UITextViewDelegate
+- (void)textViewDidBeginEditing:(UITextView *)textView {
+    self.placeHolderTextView.hidden = YES;
+    // if (self.textViewDelegate) {
+    //
+    // }
+}
+- (void)textViewDidEndEditing:(UITextView *)textView {
+    if (textView.text && [textView.text isEqualToString:@""]) {
+        self.placeHolderTextView.hidden = NO;
+    }
+}
+
+@end

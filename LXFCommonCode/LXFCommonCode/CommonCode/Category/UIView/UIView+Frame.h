@@ -12,6 +12,8 @@
 
 @interface UIView (Frame)
 
+/** origin */
+@property (nonatomic, assign) CGPoint origin;
 /** size */
 @property(nonatomic, assign) CGSize  size;
 /** 宽度 */

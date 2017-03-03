@@ -13,6 +13,11 @@
 @implementation UIView (Frame)
 
 # pragma mark - 重写set方法
+- (void)setOrigin:(CGPoint)origin {
+    CGRect frame = self.frame;
+    frame.origin = origin;
+    self.frame = frame;
+}
 - (void)setSize:(CGSize)size
 {
     CGRect frame = self.frame;
@@ -61,9 +66,18 @@
     center.y = centerY;
     self.center = center;
 }
+//- (void)setCenterX:(CGFloat)centerX {
+//    self.center = CGPointMake(centerX, self.center.y);
+//}
+//- (void)setCenterY:(CGFloat)centerY {
+//    self.center = CGPointMake(self.center.x, centerY);
+//}
 
 
 # pragma mark - 重写get方法
+- (CGPoint)origin {
+    return self.frame.origin;
+}
 - (CGSize)size
 {
     return self.frame.size;

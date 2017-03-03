@@ -13,7 +13,6 @@
 @implementation UIImageView (Circle)
 
 - (void)circleImage{
-    
     UIImage *anotherImage = self.image;
     UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, [UIScreen mainScreen].scale);
     //在绘制之前先裁剪出一个圆形
