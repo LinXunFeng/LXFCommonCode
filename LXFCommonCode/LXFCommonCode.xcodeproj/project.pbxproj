@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD4DF8551E6C3DA500228799 /* UITabBar+RangeClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */; };
+		FD4DF85F1E6C3E8900228799 /* UIApplication+ApplicationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8581E6C3E8900228799 /* UIApplication+ApplicationSize.m */; };
+		FD4DF8601E6C3E8900228799 /* UIApplication+KeyboardFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF85A1E6C3E8900228799 /* UIApplication+KeyboardFrame.m */; };
+		FD4DF8611E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF85C1E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.m */; };
+		FD4DF8621E6C3E8900228799 /* UIApplication+Permissions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF85E1E6C3E8900228799 /* UIApplication+Permissions.m */; };
+		FD4DF8651E6C400500228799 /* UIScrollView+ContentFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8641E6C400500228799 /* UIScrollView+ContentFrame.m */; };
 		FD50DF511E68F3C600DAE0E4 /* UIImage+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50DF501E68F3C600DAE0E4 /* UIImage+Orientation.m */; };
 		FD50DF541E68F40500DAE0E4 /* UIImage+RemoteSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50DF531E68F40500DAE0E4 /* UIImage+RemoteSize.m */; };
 		FD50DF571E68F4DE00DAE0E4 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50DF561E68F4DE00DAE0E4 /* UIImage+Resize.m */; };
@@ -239,6 +245,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD4DF8531E6C3DA500228799 /* UITabBar+RangeClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RangeClick.h"; sourceTree = "<group>"; };
+		FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RangeClick.m"; sourceTree = "<group>"; };
+		FD4DF8571E6C3E8900228799 /* UIApplication+ApplicationSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ApplicationSize.h"; sourceTree = "<group>"; };
+		FD4DF8581E6C3E8900228799 /* UIApplication+ApplicationSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+ApplicationSize.m"; sourceTree = "<group>"; };
+		FD4DF8591E6C3E8900228799 /* UIApplication+KeyboardFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+KeyboardFrame.h"; sourceTree = "<group>"; };
+		FD4DF85A1E6C3E8900228799 /* UIApplication+KeyboardFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+KeyboardFrame.m"; sourceTree = "<group>"; };
+		FD4DF85B1E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+NetworkActivityIndicator.h"; sourceTree = "<group>"; };
+		FD4DF85C1E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+NetworkActivityIndicator.m"; sourceTree = "<group>"; };
+		FD4DF85D1E6C3E8900228799 /* UIApplication+Permissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Permissions.h"; sourceTree = "<group>"; };
+		FD4DF85E1E6C3E8900228799 /* UIApplication+Permissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Permissions.m"; sourceTree = "<group>"; };
+		FD4DF8631E6C400500228799 /* UIScrollView+ContentFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ContentFrame.h"; sourceTree = "<group>"; };
+		FD4DF8641E6C400500228799 /* UIScrollView+ContentFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ContentFrame.m"; sourceTree = "<group>"; };
 		FD50DF4F1E68F3C600DAE0E4 /* UIImage+Orientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Orientation.h"; sourceTree = "<group>"; };
 		FD50DF501E68F3C600DAE0E4 /* UIImage+Orientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Orientation.m"; sourceTree = "<group>"; };
 		FD50DF521E68F40500DAE0E4 /* UIImage+RemoteSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RemoteSize.h"; sourceTree = "<group>"; };
@@ -710,6 +728,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD4DF8521E6C3D9300228799 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD4DF8531E6C3DA500228799 /* UITabBar+RangeClick.h */,
+				FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+		FD4DF8561E6C3E8900228799 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				FD4DF8571E6C3E8900228799 /* UIApplication+ApplicationSize.h */,
+				FD4DF8581E6C3E8900228799 /* UIApplication+ApplicationSize.m */,
+				FD4DF8591E6C3E8900228799 /* UIApplication+KeyboardFrame.h */,
+				FD4DF85A1E6C3E8900228799 /* UIApplication+KeyboardFrame.m */,
+				FD4DF85B1E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.h */,
+				FD4DF85C1E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.m */,
+				FD4DF85D1E6C3E8900228799 /* UIApplication+Permissions.h */,
+				FD4DF85E1E6C3E8900228799 /* UIApplication+Permissions.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
 		FD50DF7C1E691CA600DAE0E4 /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -1002,6 +1044,8 @@
 		FDA687211E67AB7D0077F14A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FD4DF8561E6C3E8900228799 /* UIApplication */,
+				FD4DF8521E6C3D9300228799 /* UITabBar */,
 				FD50E0021E6938DE00DAE0E4 /* UIWebView */,
 				FD50DFF21E69383900DAE0E4 /* UIBezierPath */,
 				FD50DFEE1E69332200DAE0E4 /* UIWindow */,
@@ -1685,6 +1729,8 @@
 				FD50DFB51E6920F400DAE0E4 /* UIScrollView+EmptyDataSet.m */,
 				FD50DFB71E69211F00DAE0E4 /* UIScrollView+Pages.h */,
 				FD50DFB81E69211F00DAE0E4 /* UIScrollView+Pages.m */,
+				FD4DF8631E6C400500228799 /* UIScrollView+ContentFrame.h */,
+				FD4DF8641E6C400500228799 /* UIScrollView+ContentFrame.m */,
 			);
 			path = UIScrollView;
 			sourceTree = "<group>";
@@ -1891,6 +1937,7 @@
 				FD50E0961E693F9700DAE0E4 /* AFAutoPurgingImageCache.m in Sources */,
 				FDDE6DE71E67BBD3008F44AB /* NSTimer+LXF.m in Sources */,
 				FD50E0501E693A4B00DAE0E4 /* UIView+Constraints.m in Sources */,
+				FD4DF8611E6C3E8900228799 /* UIApplication+NetworkActivityIndicator.m in Sources */,
 				FD50E0571E693A4B00DAE0E4 /* UIView+Nib.m in Sources */,
 				FDDE6E161E67D046008F44AB /* NSMutableAttributedString+LXF.m in Sources */,
 				FD50DFDB1E6930B700DAE0E4 /* UITextField+Blocks.m in Sources */,
@@ -1928,6 +1975,8 @@
 				FDDE6E5B1E67F251008F44AB /* NSData+APNSToken.m in Sources */,
 				FDDE6E3A1E67E9A3008F44AB /* NSObject+LXF.m in Sources */,
 				FDDE6EAB1E67FC8B008F44AB /* NSObject+EasyCopy.m in Sources */,
+				FD4DF85F1E6C3E8900228799 /* UIApplication+ApplicationSize.m in Sources */,
+				FD4DF8551E6C3DA500228799 /* UITabBar+RangeClick.m in Sources */,
 				FDDE6F331E6821F6008F44AB /* UIImage+BetterFace.m in Sources */,
 				FDDE6EDE1E68027D008F44AB /* NSInvocation+Block.m in Sources */,
 				FD50DFD81E692F7F00DAE0E4 /* UITableViewCell+TS_delaysContentTouches.m in Sources */,
@@ -1941,6 +1990,7 @@
 				FDDE6F1A1E681EB7008F44AB /* UIButton+Submitting.m in Sources */,
 				FD50DFFE1E69383900DAE0E4 /* UIBezierPath+Length.m in Sources */,
 				FDDE6F3F1E6822DC008F44AB /* UIImage+FileName.m in Sources */,
+				FD4DF8601E6C3E8900228799 /* UIApplication+KeyboardFrame.m in Sources */,
 				FDDE6EF31E681B09008F44AB /* UILabel+LXF.m in Sources */,
 				FD50E0151E6938DE00DAE0E4 /* UIWebView+Alert.m in Sources */,
 				FDDE6F271E68205E008F44AB /* UIFont+WDCustomLoader.m in Sources */,
@@ -1995,6 +2045,7 @@
 				FDDE6DFA1E67C8B2008F44AB /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				FDDE6E7E1E67F88E008F44AB /* NSString+RegexCategory.m in Sources */,
 				FD50DFED1E69328300DAE0E4 /* UITextView+Select.m in Sources */,
+				FD4DF8651E6C400500228799 /* UIScrollView+ContentFrame.m in Sources */,
 				FD50DF661E69161200DAE0E4 /* UIImageView+FaceAwareFill.m in Sources */,
 				FDDE6E6F1E67F713008F44AB /* NSString+DictionaryValue.m in Sources */,
 				FDDE6E1E1E67E484008F44AB /* NSArray+LXF.m in Sources */,
@@ -2011,6 +2062,7 @@
 				FDA687561E67B7270077F14A /* UserDefaultsUtils.m in Sources */,
 				FDDE6F1D1E681EF7008F44AB /* UIButton+TouchAreaInsets.m in Sources */,
 				FDDE6E521E67F1D0008F44AB /* NSData+Hash.m in Sources */,
+				FD4DF8621E6C3E8900228799 /* UIApplication+Permissions.m in Sources */,
 				FDDE6E751E67F80E008F44AB /* NSString+Matcher.m in Sources */,
 				FD50DF691E69199700DAE0E4 /* UIImageView+GeometryConversion.m in Sources */,
 				FD50E01A1E6938DE00DAE0E4 /* UIWebView+MetaParser.m in Sources */,
