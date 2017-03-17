@@ -122,6 +122,7 @@
 		FD50E0B91E69407700DAE0E4 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0AB1E69407700DAE0E4 /* CacheManager.m */; };
 		FD50E0BC1E69407700DAE0E4 /* RefreshUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0B11E69407700DAE0E4 /* RefreshUtil.m */; };
 		FD50E0DA1E694B9700DAE0E4 /* RuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0D91E694B9700DAE0E4 /* RuntimeUtils.m */; };
+		FD565CB71E70E9B000A76C5D /* CMSlideToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FD565CB61E70E9B000A76C5D /* CMSlideToolBar.m */; };
 		FDA6870B1E67AA8D0077F14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870A1E67AA8D0077F14A /* main.m */; };
 		FDA6870E1E67AA8D0077F14A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870D1E67AA8D0077F14A /* AppDelegate.m */; };
 		FDA687111E67AA8D0077F14A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA687101E67AA8D0077F14A /* ViewController.m */; };
@@ -475,6 +476,8 @@
 		FD50E0B11E69407700DAE0E4 /* RefreshUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshUtil.m; sourceTree = "<group>"; };
 		FD50E0D81E694B9700DAE0E4 /* RuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeUtils.h; sourceTree = "<group>"; };
 		FD50E0D91E694B9700DAE0E4 /* RuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeUtils.m; sourceTree = "<group>"; };
+		FD565CB51E70E9B000A76C5D /* CMSlideToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSlideToolBar.h; sourceTree = "<group>"; };
+		FD565CB61E70E9B000A76C5D /* CMSlideToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSlideToolBar.m; sourceTree = "<group>"; };
 		FDA687061E67AA8D0077F14A /* LXFCommonCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFCommonCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA6870A1E67AA8D0077F14A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDA6870C1E67AA8D0077F14A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -986,6 +989,15 @@
 			children = (
 			);
 			path = "AFNetworking 封装";
+			sourceTree = "<group>";
+		};
+		FD565CB41E70E9B000A76C5D /* CMSlideToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				FD565CB51E70E9B000A76C5D /* CMSlideToolBar.h */,
+				FD565CB61E70E9B000A76C5D /* CMSlideToolBar.m */,
+			);
+			path = CMSlideToolBar;
 			sourceTree = "<group>";
 		};
 		FDA686FD1E67AA8D0077F14A = {
@@ -1618,6 +1630,7 @@
 		FDDE6EC41E67FF42008F44AB /* UIView */ = {
 			isa = PBXGroup;
 			children = (
+				FD565CB41E70E9B000A76C5D /* CMSlideToolBar */,
 				FDDE6EC51E67FF42008F44AB /* LaunchAd(启动页广告) */,
 			);
 			path = UIView;
@@ -1889,6 +1902,7 @@
 				FD50DFA01E691F8000DAE0E4 /* UIResponder+Chain.m in Sources */,
 				FD50E0311E69398600DAE0E4 /* UIControl+ActionBlocks.m in Sources */,
 				FDDE6E8A1E67F998008F44AB /* NSString+Size.m in Sources */,
+				FD565CB71E70E9B000A76C5D /* CMSlideToolBar.m in Sources */,
 				FD50DFB01E69207F00DAE0E4 /* UIScrollView+Addition.m in Sources */,
 				FDDE6EFD1E681BF5008F44AB /* UIScrollView+SpringHeadView.m in Sources */,
 				FDDE6EE91E68042B008F44AB /* UIImageView+JWWebCache.m in Sources */,
