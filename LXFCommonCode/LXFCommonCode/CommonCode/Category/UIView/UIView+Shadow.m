@@ -16,6 +16,7 @@
 
 @implementation UIView (Shadow)
 
+#pragma mark in
 - (void) makeInsetShadow
 {
     NSArray *shadowDirections = [NSArray arrayWithObjects:@"top", @"bottom", @"left" , @"right" , nil];
@@ -90,5 +91,23 @@
     
     return shadowView;
 }
+
+#pragma mark out
+- (void)makeShadow {
+    [self makeShadowWithRadius:5 Color:[UIColor blackColor] Offset:CGSizeZero Alpha:0.7];
+}
+
+- (void)makeShadowWithRadius:(CGFloat)radius Alpha:(CGFloat)alpha {
+    [self makeShadowWithRadius:radius Color:[UIColor blackColor] Offset:CGSizeZero Alpha:alpha];
+}
+
+- (void)makeShadowWithRadius:(CGFloat)radius Color:(UIColor *)color Offset:(CGSize)offset Alpha:(CGFloat)alpha {
+    self.layer.shadowRadius = radius;
+    self.layer.shadowColor = color.CGColor;
+    self.layer.shadowOffset = offset;
+    self.layer.shadowOpacity = alpha;
+    self.clipsToBounds = NO;
+}
+
 
 @end
