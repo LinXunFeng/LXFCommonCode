@@ -153,6 +153,7 @@
 		FDA687531E67B6FE0077F14A /* LanguageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA687521E67B6FE0077F14A /* LanguageUtils.m */; };
 		FDA687561E67B7270077F14A /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA687551E67B7270077F14A /* UserDefaultsUtils.m */; };
 		FDB98BDD1E88AA6200157B5A /* UITableViewCell+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */; };
+		FDC0B1C31ECBE8C800408096 /* NSObject+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */; };
 		FDDE6DE71E67BBD3008F44AB /* NSTimer+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DE61E67BBD3008F44AB /* NSTimer+LXF.m */; };
 		FDDE6DEA1E67C656008F44AB /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DE91E67C656008F44AB /* UIView+Screenshot.m */; };
 		FDDE6DED1E67C74F008F44AB /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DEC1E67C74F008F44AB /* UIView+Animation.m */; };
@@ -552,6 +553,8 @@
 		FDA687551E67B7270077F14A /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
 		FDB98BDB1E88AA6200157B5A /* UITableViewCell+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LXF.h"; sourceTree = "<group>"; };
 		FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LXF.m"; sourceTree = "<group>"; };
+		FDC0B1C11ECBE8C800408096 /* NSObject+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Keyboard.h"; sourceTree = "<group>"; };
+		FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Keyboard.m"; sourceTree = "<group>"; };
 		FDDE6DE51E67BBD3008F44AB /* NSTimer+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LXF.h"; sourceTree = "<group>"; };
 		FDDE6DE61E67BBD3008F44AB /* NSTimer+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LXF.m"; sourceTree = "<group>"; };
 		FDDE6DE81E67C656008F44AB /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
@@ -1623,6 +1626,8 @@
 				FDDE6EB61E67FE09008F44AB /* NSObject+Reflection.m */,
 				FDDE6EB81E67FE44008F44AB /* NSObject+Runtime.h */,
 				FDDE6EB91E67FE44008F44AB /* NSObject+Runtime.m */,
+				FDC0B1C11ECBE8C800408096 /* NSObject+Keyboard.h */,
+				FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -2090,6 +2095,7 @@
 				FDDE6F3C1E682298008F44AB /* UIImage+Color.m in Sources */,
 				FD50E01D1E6938DE00DAE0E4 /* WebView+Debug.m in Sources */,
 				FDDE6EA21E67FBE0008F44AB /* NSObject+AssociatedObject.m in Sources */,
+				FDC0B1C31ECBE8C800408096 /* NSObject+Keyboard.m in Sources */,
 				FD50E08F1E693F9700DAE0E4 /* AFNetworkReachabilityManager.m in Sources */,
 				FD5BE41C1E8523330089AFD4 /* UIView+Xib.m in Sources */,
 				FD50E05A1E693A4B00DAE0E4 /* UIView+Toast.m in Sources */,
