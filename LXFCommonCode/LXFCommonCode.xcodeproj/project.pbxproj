@@ -133,6 +133,7 @@
 		FD58CDFC1E948BED00C021D1 /* LXFDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDFB1E948BED00C021D1 /* LXFDateUtils.m */; };
 		FD58CDFF1E948D3B00C021D1 /* LXFIPAddressUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDFE1E948D3B00C021D1 /* LXFIPAddressUtils.m */; };
 		FD5BE41C1E8523330089AFD4 /* UIView+Xib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */; };
+		FD5F98401F1526AB000E7E45 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F983F1F1526AB000E7E45 /* UIView+Color.m */; };
 		FD94ED4E1E9631DB006D7A37 /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */; };
 		FDA6870B1E67AA8D0077F14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870A1E67AA8D0077F14A /* main.m */; };
 		FDA6870E1E67AA8D0077F14A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870D1E67AA8D0077F14A /* AppDelegate.m */; };
@@ -511,6 +512,8 @@
 		FD58CDFE1E948D3B00C021D1 /* LXFIPAddressUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFIPAddressUtils.m; sourceTree = "<group>"; };
 		FD5BE41A1E8523330089AFD4 /* UIView+Xib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Xib.h"; sourceTree = "<group>"; };
 		FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Xib.m"; sourceTree = "<group>"; };
+		FD5F983E1F1526AB000E7E45 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
+		FD5F983F1F1526AB000E7E45 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
 		FD94ED4C1E9631DB006D7A37 /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
 		FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
 		FDA687061E67AA8D0077F14A /* LXFCommonCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXFCommonCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1246,6 +1249,8 @@
 				FD50E04E1E693A4B00DAE0E4 /* UIView+Visuals.m */,
 				FD5BE41A1E8523330089AFD4 /* UIView+Xib.h */,
 				FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */,
+				FD5F983E1F1526AB000E7E45 /* UIView+Color.h */,
+				FD5F983F1F1526AB000E7E45 /* UIView+Color.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -2111,6 +2116,7 @@
 				FDDE6E871E67F962008F44AB /* NSString+Score.m in Sources */,
 				FD50E09E1E693F9700DAE0E4 /* UIWebView+AFNetworking.m in Sources */,
 				FDDE6EA81E67FC5B008F44AB /* NSObject+Blocks.m in Sources */,
+				FD5F98401F1526AB000E7E45 /* UIView+Color.m in Sources */,
 				FDDE6E811E67F8B7008F44AB /* NSString+RemoveEmoji.m in Sources */,
 				FDDE6ECD1E680003008F44AB /* HYFileManager.m in Sources */,
 				FDDE6F041E681C8C008F44AB /* UIImageView+Circle.m in Sources */,
