@@ -27,4 +27,31 @@
     return color;
 }
 
+// 将view的绘制成图片（对webView无法截图十分有效）
+- (UIImage*)captureWithFrame:(CGRect)frame
+{
+    UIGraphicsBeginImageContext(self.frame.size);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    UIImage *img;
+    if([[[UIDevice currentDevice] systemVersion] floatValue]>=7.0)
+    {
+        for(UIView *subview in self.subviews)
+        {
+            [subview drawViewHierarchyInRect:subview.bounds afterScreenUpdates:YES];
+        }
+        img = UIGraphicsGetImageFromCurrentImageContext();
+    }
+    else
+    {
+        CGContextSaveGState(context);
+        [self.layer renderInContext:context];
+        img = UIGraphicsGetImageFromCurrentImageContext();
+    }
+    UIGraphicsEndImageContext();
+    CGImageRef ref = CGImageCreateWithImageInRect(img.CGImage, frame);
+    UIImage *CGImg = [UIImage imageWithCGImage:ref];
+    CGImageRelease(ref);
+    return CGImg;
+}
+
 @end
