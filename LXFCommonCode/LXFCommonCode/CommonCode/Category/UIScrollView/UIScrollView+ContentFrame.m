@@ -70,4 +70,27 @@
     self.contentInset = insets;
 }
 
+- (CGFloat)insetLeft
+{
+    return self.contentInset.left;
+}
+
+- (void)setInsetLeft:(CGFloat)insetLeft {
+    UIEdgeInsets inset = self.contentInset;
+    inset.left = insetLeft;
+    self.contentInset = inset;
+}
+
+- (CGFloat)insetRight
+{
+    return self.contentInset.right;
+}
+
+- (void)setInsetRight:(CGFloat)insetRight
+{
+    UIEdgeInsets inset = self.contentInset;
+    inset.right = insetRight;
+    self.contentInset = inset;
+}
+
 @end

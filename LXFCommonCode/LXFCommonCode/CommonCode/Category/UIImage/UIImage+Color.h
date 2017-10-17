@@ -21,6 +21,14 @@
  */
 + (UIImage *)imageWithColor:(UIColor *)color;
 /**
+ Create and return a pure color image with the given color and size.
+ 
+ @param color  The color.
+ @param size   New image's type.
+ */
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size;
+
+/**
  *  @brief  取图片某一点的颜色
  *
  *  @param point 某一点

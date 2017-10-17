@@ -20,5 +20,7 @@
 
 @property(nonatomic, assign) CGFloat insetTop;
 @property(nonatomic, assign) CGFloat insetBottom;
+@property (assign, nonatomic) CGFloat insetLeft;
+@property (assign, nonatomic) CGFloat insetRight;
 
 @end

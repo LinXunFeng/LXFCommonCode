@@ -33,6 +33,24 @@
     return image;
 }
 /**
+ Create and return a pure color image with the given color and size.
+ 
+ @param color  The color.
+ @param size   New image's type.
+ */
++ (UIImage *)imageWithColor:(UIColor *)color size:(CGSize)size {
+    if (!color || size.width <= 0 || size.height <= 0) return nil;
+    CGRect rect = CGRectMake(0.0f, 0.0f, size.width, size.height);
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    CGContextSetFillColorWithColor(context, color.CGColor);
+    CGContextFillRect(context, rect);
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
+/**
  *  @brief  取图片某一点的颜色
  *
  *  @param point 某一点
@@ -173,5 +191,6 @@
     
     return grayImage;
 }
+
 
 @end

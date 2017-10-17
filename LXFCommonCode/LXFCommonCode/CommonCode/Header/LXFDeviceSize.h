@@ -30,6 +30,7 @@
 #define IS_IPHONE_5 (fabs((double)[[UIScreen mainScreen]bounds].size.height-(double)568)< DBL_EPSILON)
 #define IS_IPHONE_6 (fabs((double)[[UIScreen mainScreen]bounds].size.height-(double)667)< DBL_EPSILON)
 #define IS_IPHONE_6P (fabs((double)[[UIScreen mainScreen]bounds].size.height-(double)736)< DBL_EPSILON)
+#define IS_IPHONE_X (SCREEN_WIDTH == Double(375.0) && SCREEN_HEIGHT == Double(812.0) ?true:false)
 
 #pragma mark - 设备版本
 #define IOS_7_OR_LATER  ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)

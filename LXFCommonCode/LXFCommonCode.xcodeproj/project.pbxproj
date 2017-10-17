@@ -257,6 +257,17 @@
 		FDDE6F421E682309008F44AB /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6F411E682309008F44AB /* UIImage+FX.m */; };
 		FDDE6F451E682363008F44AB /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6F441E682363008F44AB /* UIImage+GIF.m */; };
 		FDDE6F481E682388008F44AB /* UIImage+Merge.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6F471E682388008F44AB /* UIImage+Merge.m */; };
+		FDF568051F958DC90031920F /* LXFNetworkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568041F958DC90031920F /* LXFNetworkTools.m */; };
+		FDF568091F958E950031920F /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568081F958E950031920F /* SystemInfo.m */; };
+		FDF5680D1F958EEB0031920F /* LXFLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF5680C1F958EEB0031920F /* LXFLogger.m */; };
+		FDF568111F958FAE0031920F /* LXFRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568101F958FAE0031920F /* LXFRuntimeHelper.m */; };
+		FDF568141F9590680031920F /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568131F9590680031920F /* NSObject+ClassName.m */; };
+		FDF568181F9590B80031920F /* UIDevice+Simulator.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568171F9590B80031920F /* UIDevice+Simulator.m */; };
+		FDF5681B1F95911E0031920F /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF5681A1F95911E0031920F /* UIImage+Scale.m */; };
+		FDF5681E1F95938D0031920F /* UIImage+Stretch.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF5681D1F95938D0031920F /* UIImage+Stretch.m */; };
+		FDF568211F9593D60031920F /* UIImage+Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568201F9593D60031920F /* UIImage+Circle.m */; };
+		FDF568241F9596250031920F /* UIView+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568231F9596250031920F /* UIView+Window.m */; };
+		FDF568271F9596620031920F /* UIView+Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = FDF568261F9596620031920F /* UIView+Layer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -760,6 +771,36 @@
 		FDDE6F441E682363008F44AB /* UIImage+GIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GIF.m"; sourceTree = "<group>"; };
 		FDDE6F461E682388008F44AB /* UIImage+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Merge.h"; sourceTree = "<group>"; };
 		FDDE6F471E682388008F44AB /* UIImage+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Merge.m"; sourceTree = "<group>"; };
+		FDF568031F958DC90031920F /* LXFNetworkTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFNetworkTools.h; sourceTree = "<group>"; };
+		FDF568041F958DC90031920F /* LXFNetworkTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFNetworkTools.m; sourceTree = "<group>"; };
+		FDF568071F958E950031920F /* SystemInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		FDF568081F958E950031920F /* SystemInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		FDF5680B1F958EEB0031920F /* LXFLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFLogger.h; sourceTree = "<group>"; };
+		FDF5680C1F958EEB0031920F /* LXFLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFLogger.m; sourceTree = "<group>"; };
+		FDF5680F1F958FAE0031920F /* LXFRuntimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXFRuntimeHelper.h; sourceTree = "<group>"; };
+		FDF568101F958FAE0031920F /* LXFRuntimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXFRuntimeHelper.m; sourceTree = "<group>"; };
+		FDF568121F9590680031920F /* NSObject+ClassName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ClassName.h"; sourceTree = "<group>"; };
+		FDF568131F9590680031920F /* NSObject+ClassName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ClassName.m"; sourceTree = "<group>"; };
+		FDF568161F9590B80031920F /* UIDevice+Simulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Simulator.h"; sourceTree = "<group>"; };
+		FDF568171F9590B80031920F /* UIDevice+Simulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Simulator.m"; sourceTree = "<group>"; };
+		FDF568191F95911E0031920F /* UIImage+Scale.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		FDF5681A1F95911E0031920F /* UIImage+Scale.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		FDF5681C1F95938D0031920F /* UIImage+Stretch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Stretch.h"; sourceTree = "<group>"; };
+		FDF5681D1F95938D0031920F /* UIImage+Stretch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Stretch.m"; sourceTree = "<group>"; };
+		FDF5681F1F9593D60031920F /* UIImage+Circle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Circle.h"; sourceTree = "<group>"; };
+		FDF568201F9593D60031920F /* UIImage+Circle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Circle.m"; sourceTree = "<group>"; };
+		FDF568221F9596250031920F /* UIView+Window.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Window.h"; sourceTree = "<group>"; };
+		FDF568231F9596250031920F /* UIView+Window.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Window.m"; sourceTree = "<group>"; };
+		FDF568251F9596620031920F /* UIView+Layer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Layer.h"; sourceTree = "<group>"; };
+		FDF568261F9596620031920F /* UIView+Layer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layer.m"; sourceTree = "<group>"; };
+		FDF568291F9596BB0031920F /* YYFPSLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		FDF5682A1F9596BB0031920F /* YYFPSLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		FDF5682C1F9596D10031920F /* p.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = p.p12; sourceTree = "<group>"; };
+		FDF5682D1F9596D10031920F /* RSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		FDF5682E1F9596D10031920F /* CryptorTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptorTools.m; sourceTree = "<group>"; };
+		FDF5682F1F9596D10031920F /* rsacert.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rsacert.der; sourceTree = "<group>"; };
+		FDF568301F9596D10031920F /* RSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		FDF568311F9596D10031920F /* CryptorTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptorTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1026,13 +1067,6 @@
 			path = TMCache;
 			sourceTree = "<group>";
 		};
-		FD50E0D31E6944E500DAE0E4 /* AFNetworking 封装 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "AFNetworking 封装";
-			sourceTree = "<group>";
-		};
 		FD58CDE31E948A3100C021D1 /* LXFProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1115,6 +1149,7 @@
 		FDA687211E67AB7D0077F14A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				FDF568151F9590980031920F /* UIDevice */,
 				FDA687271E67AFA30077F14A /* DataLog */,
 				FDDE6E1A1E67E466008F44AB /* NSArray */,
 				FDDE6ED41E68012F008F44AB /* NSBundle */,
@@ -1251,6 +1286,10 @@
 				FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */,
 				FD5F983E1F1526AB000E7E45 /* UIView+Color.h */,
 				FD5F983F1F1526AB000E7E45 /* UIView+Color.m */,
+				FDF568221F9596250031920F /* UIView+Window.h */,
+				FDF568231F9596250031920F /* UIView+Window.m */,
+				FDF568251F9596620031920F /* UIView+Layer.h */,
+				FDF568261F9596620031920F /* UIView+Layer.m */,
 			);
 			path = UIView;
 			sourceTree = "<group>";
@@ -1290,6 +1329,12 @@
 				FD50DF591E68F52200DAE0E4 /* UIImage+RoundedCorner.m */,
 				FD50DF5B1E68F54E00DAE0E4 /* UIImage+Vector.h */,
 				FD50DF5C1E68F54E00DAE0E4 /* UIImage+Vector.m */,
+				FDF568191F95911E0031920F /* UIImage+Scale.h */,
+				FDF5681A1F95911E0031920F /* UIImage+Scale.m */,
+				FDF5681C1F95938D0031920F /* UIImage+Stretch.h */,
+				FDF5681D1F95938D0031920F /* UIImage+Stretch.m */,
+				FDF5681F1F9593D60031920F /* UIImage+Circle.h */,
+				FDF568201F9593D60031920F /* UIImage+Circle.m */,
 			);
 			path = UIImage;
 			sourceTree = "<group>";
@@ -1401,8 +1446,11 @@
 		FDA687501E67B6A60077F14A /* CustomUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FDF5680E1F958F9C0031920F /* LXFRuntimeHelper */,
+				FDF5680A1F958EDC0031920F /* LXFLogger */,
+				FDF568061F958E810031920F /* SystemInfo */,
+				FDF568021F958DA50031920F /* AFNetworking 封装 */,
 				FD58CDE31E948A3100C021D1 /* LXFProgressHUD */,
-				FD50E0D31E6944E500DAE0E4 /* AFNetworking 封装 */,
 				FDDE6F051E681D02008F44AB /* ChineseSort */,
 				FDDE6EC91E680003008F44AB /* HYFileManager */,
 				FDA687511E67B6FE0077F14A /* LanguageUtils.h */,
@@ -1633,6 +1681,8 @@
 				FDDE6EB91E67FE44008F44AB /* NSObject+Runtime.m */,
 				FDC0B1C11ECBE8C800408096 /* NSObject+Keyboard.h */,
 				FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */,
+				FDF568121F9590680031920F /* NSObject+ClassName.h */,
+				FDF568131F9590680031920F /* NSObject+ClassName.m */,
 			);
 			path = NSObject;
 			sourceTree = "<group>";
@@ -1640,6 +1690,8 @@
 		FDDE6E411E67ED4B008F44AB /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				FDF5682B1F9596D10031920F /* RSA */,
+				FDF568281F9596BB0031920F /* YYFPSLabel */,
 				FD58CDE71E948A5B00C021D1 /* SVProgressHUD */,
 				FD50E05D1E693F9700DAE0E4 /* AFNetworking */,
 				FD50E0831E693F9700DAE0E4 /* TMCache */,
@@ -1871,6 +1923,73 @@
 			path = UIFont;
 			sourceTree = "<group>";
 		};
+		FDF568021F958DA50031920F /* AFNetworking 封装 */ = {
+			isa = PBXGroup;
+			children = (
+				FDF568031F958DC90031920F /* LXFNetworkTools.h */,
+				FDF568041F958DC90031920F /* LXFNetworkTools.m */,
+			);
+			path = "AFNetworking 封装";
+			sourceTree = "<group>";
+		};
+		FDF568061F958E810031920F /* SystemInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FDF568071F958E950031920F /* SystemInfo.h */,
+				FDF568081F958E950031920F /* SystemInfo.m */,
+			);
+			path = SystemInfo;
+			sourceTree = "<group>";
+		};
+		FDF5680A1F958EDC0031920F /* LXFLogger */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5680B1F958EEB0031920F /* LXFLogger.h */,
+				FDF5680C1F958EEB0031920F /* LXFLogger.m */,
+			);
+			path = LXFLogger;
+			sourceTree = "<group>";
+		};
+		FDF5680E1F958F9C0031920F /* LXFRuntimeHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5680F1F958FAE0031920F /* LXFRuntimeHelper.h */,
+				FDF568101F958FAE0031920F /* LXFRuntimeHelper.m */,
+			);
+			path = LXFRuntimeHelper;
+			sourceTree = "<group>";
+		};
+		FDF568151F9590980031920F /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				FDF568161F9590B80031920F /* UIDevice+Simulator.h */,
+				FDF568171F9590B80031920F /* UIDevice+Simulator.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		FDF568281F9596BB0031920F /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				FDF568291F9596BB0031920F /* YYFPSLabel.h */,
+				FDF5682A1F9596BB0031920F /* YYFPSLabel.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		FDF5682B1F9596D10031920F /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5682C1F9596D10031920F /* p.p12 */,
+				FDF5682D1F9596D10031920F /* RSA.m */,
+				FDF5682E1F9596D10031920F /* CryptorTools.m */,
+				FDF5682F1F9596D10031920F /* rsacert.der */,
+				FDF568301F9596D10031920F /* RSA.h */,
+				FDF568311F9596D10031920F /* CryptorTools.h */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1955,6 +2074,8 @@
 				FDDE6E991E67FB3D008F44AB /* NSURL+QueryDictionary.m in Sources */,
 				FD50DFD71E692F7F00DAE0E4 /* UITableViewCell+NIB.m in Sources */,
 				FD58CDFF1E948D3B00C021D1 /* LXFIPAddressUtils.m in Sources */,
+				FDF5681E1F95938D0031920F /* UIImage+Stretch.m in Sources */,
+				FDF568141F9590680031920F /* NSObject+ClassName.m in Sources */,
 				FDDE6EA51E67FC17008F44AB /* NSObject+AutoCoding.m in Sources */,
 				FDDE6DF61E67C812008F44AB /* UIMenuItem+LXF.m in Sources */,
 				FDA687311E67B0E00077F14A /* UITextField+LRViewPlaceholder.m in Sources */,
@@ -1964,6 +2085,7 @@
 				FDDE6E4C1E67ED92008F44AB /* UIViewController+MBPHUD.m in Sources */,
 				FDDE6E221E67E4C7008F44AB /* NSMutableArray+LXF.m in Sources */,
 				FD50E0191E6938DE00DAE0E4 /* UIWebView+Load.m in Sources */,
+				FDF568091F958E950031920F /* SystemInfo.m in Sources */,
 				FDDE6E901E67FA00008F44AB /* NSString+UrlEncode.m in Sources */,
 				FDA687401E67B3FE0077F14A /* NSString+LXF.m in Sources */,
 				FDDE6E191E67D0D0008F44AB /* NSString+Predicate.m in Sources */,
@@ -2028,6 +2150,7 @@
 				FDDE6E781E67F833008F44AB /* NSString+MIME.m in Sources */,
 				FDDE6E961E67FA59008F44AB /* NSString+XML.m in Sources */,
 				FD50DFB31E6920A400DAE0E4 /* UIScrollView+APParallaxHeader.m in Sources */,
+				FDF568211F9593D60031920F /* UIImage+Circle.m in Sources */,
 				FD50DFA61E691FD400DAE0E4 /* UIResponder+UIAdapt.m in Sources */,
 				FD50DF8E1E691DDE00DAE0E4 /* UINavigationController+StackManager.m in Sources */,
 				FD50E0BC1E69407700DAE0E4 /* RefreshUtil.m in Sources */,
@@ -2056,6 +2179,7 @@
 				FD50E05C1E693A4B00DAE0E4 /* UIView+Visuals.m in Sources */,
 				FD50E0991E693F9700DAE0E4 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				FD58CDF31E948A5B00C021D1 /* SVProgressAnimatedView.m in Sources */,
+				FDF568181F9590B80031920F /* UIDevice+Simulator.m in Sources */,
 				FDDE6E9F1E67FBAC008F44AB /* NSObject+AppInfo.m in Sources */,
 				FD50E0281E69393A00DAE0E4 /* UIColor+Gradient.m in Sources */,
 				FDDE6F0E1E681D4D008F44AB /* UIButton+Block.m in Sources */,
@@ -2066,6 +2190,7 @@
 				FD50DFE11E69319B00DAE0E4 /* UITextField+Select.m in Sources */,
 				FD50E0551E693A4B00DAE0E4 /* UIView+Find.m in Sources */,
 				FD50DF821E691CF300DAE0E4 /* UINavigationController+BATransitions.m in Sources */,
+				FDF568111F958FAE0031920F /* LXFRuntimeHelper.m in Sources */,
 				FD50DF951E691E7100DAE0E4 /* UINavigationItem+Lock.m in Sources */,
 				FD50DF6F1E691A2700DAE0E4 /* UIImageView+Reflect.m in Sources */,
 				FDDE6F0A1E681D02008F44AB /* ChineseString.m in Sources */,
@@ -2075,6 +2200,7 @@
 				FDDE6E3A1E67E9A3008F44AB /* NSObject+LXF.m in Sources */,
 				FDDE6EAB1E67FC8B008F44AB /* NSObject+EasyCopy.m in Sources */,
 				FD4DF85F1E6C3E8900228799 /* UIApplication+ApplicationSize.m in Sources */,
+				FDF568051F958DC90031920F /* LXFNetworkTools.m in Sources */,
 				FD4DF8551E6C3DA500228799 /* UITabBar+RangeClick.m in Sources */,
 				FDDE6F331E6821F6008F44AB /* UIImage+BetterFace.m in Sources */,
 				FDDE6EDE1E68027D008F44AB /* NSInvocation+Block.m in Sources */,
@@ -2087,6 +2213,7 @@
 				FD50DF601E69156800DAE0E4 /* UIImageView+Addition.m in Sources */,
 				FDDE6ED71E68014A008F44AB /* NSBundle+AppIcon.m in Sources */,
 				FDDE6F1A1E681EB7008F44AB /* UIButton+Submitting.m in Sources */,
+				FDF5681B1F95911E0031920F /* UIImage+Scale.m in Sources */,
 				FD50DFFE1E69383900DAE0E4 /* UIBezierPath+Length.m in Sources */,
 				FDDE6F3F1E6822DC008F44AB /* UIImage+FileName.m in Sources */,
 				FD4DF8601E6C3E8900228799 /* UIApplication+KeyboardFrame.m in Sources */,
@@ -2140,7 +2267,9 @@
 				FD50DF921E691E2500DAE0E4 /* UINavigationItem+Loading.m in Sources */,
 				FD50E0581E693A4B00DAE0E4 /* UIView+Recursion.m in Sources */,
 				FD50DFDE1E69314D00DAE0E4 /* UITextField+History.m in Sources */,
+				FDF5680D1F958EEB0031920F /* LXFLogger.m in Sources */,
 				FD50DFFF1E69383900DAE0E4 /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
+				FDF568271F9596620031920F /* UIView+Layer.m in Sources */,
 				FD50E0531E693A4B00DAE0E4 /* UIView+draggable.m in Sources */,
 				FDDE6E481E67ED58008F44AB /* MBProgressHUD.m in Sources */,
 				FD50DF851E691D3800DAE0E4 /* UINavigationController+JZExtension.m in Sources */,
@@ -2189,6 +2318,7 @@
 				FDDE6DF21E67C7CE008F44AB /* UITableViewCell+Animation.m in Sources */,
 				FD50DFCE1E692F6A00DAE0E4 /* UITableView+iOS7Style.m in Sources */,
 				FD50DF981E691E9400DAE0E4 /* UINavigationItem+Margin.m in Sources */,
+				FDF568241F9596250031920F /* UIView+Window.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

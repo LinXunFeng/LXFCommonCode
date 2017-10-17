@@ -37,9 +37,13 @@
 + (NSString *)systemVersion;
 + (NSString *)platform;
 + (NSString *)UUID;
-+ (BOOL)isJailBroken;
 + (BOOL)isPhone;
 + (BOOL)isPad;
+
+// 判断设备是否已越狱
+// Xcode9 Call to unavailable function 'system': not available on iOS
+// 解决方案http://blog.csdn.net/gwh111/article/details/78105842?locationNum=10&fps=1
+// + (BOOL)isJailBroken;
 
 /********APP Info********/
 + (NSString *)appVersion;
