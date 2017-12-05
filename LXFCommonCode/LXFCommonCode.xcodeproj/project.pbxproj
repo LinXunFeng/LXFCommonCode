@@ -153,6 +153,7 @@
 		FDA6874F1E67B6480077F14A /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6874E1E67B6480077F14A /* UIView+Shadow.m */; };
 		FDA687531E67B6FE0077F14A /* LanguageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA687521E67B6FE0077F14A /* LanguageUtils.m */; };
 		FDA687561E67B7270077F14A /* UserDefaultsUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA687551E67B7270077F14A /* UserDefaultsUtils.m */; };
+		FDB4D6AE1FD62AAD00BD8842 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB4D6AD1FD62AAD00BD8842 /* UIButton+Layout.m */; };
 		FDB98BDD1E88AA6200157B5A /* UITableViewCell+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */; };
 		FDC0B1C31ECBE8C800408096 /* NSObject+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */; };
 		FDDE6DE71E67BBD3008F44AB /* NSTimer+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DE61E67BBD3008F44AB /* NSTimer+LXF.m */; };
@@ -565,6 +566,8 @@
 		FDA687521E67B6FE0077F14A /* LanguageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageUtils.m; sourceTree = "<group>"; };
 		FDA687541E67B7270077F14A /* UserDefaultsUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsUtils.h; sourceTree = "<group>"; };
 		FDA687551E67B7270077F14A /* UserDefaultsUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsUtils.m; sourceTree = "<group>"; };
+		FDB4D6AC1FD62AAD00BD8842 /* UIButton+Layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Layout.h"; sourceTree = "<group>"; };
+		FDB4D6AD1FD62AAD00BD8842 /* UIButton+Layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Layout.m"; sourceTree = "<group>"; };
 		FDB98BDB1E88AA6200157B5A /* UITableViewCell+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LXF.h"; sourceTree = "<group>"; };
 		FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LXF.m"; sourceTree = "<group>"; };
 		FDC0B1C11ECBE8C800408096 /* NSObject+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Keyboard.h"; sourceTree = "<group>"; };
@@ -1430,6 +1433,8 @@
 				FDDE6F191E681EB7008F44AB /* UIButton+Submitting.m */,
 				FDDE6F1B1E681EF7008F44AB /* UIButton+TouchAreaInsets.h */,
 				FDDE6F1C1E681EF7008F44AB /* UIButton+TouchAreaInsets.m */,
+				FDB4D6AC1FD62AAD00BD8842 /* UIButton+Layout.h */,
+				FDB4D6AD1FD62AAD00BD8842 /* UIButton+Layout.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -2213,6 +2218,7 @@
 				FD50DF601E69156800DAE0E4 /* UIImageView+Addition.m in Sources */,
 				FDDE6ED71E68014A008F44AB /* NSBundle+AppIcon.m in Sources */,
 				FDDE6F1A1E681EB7008F44AB /* UIButton+Submitting.m in Sources */,
+				FDB4D6AE1FD62AAD00BD8842 /* UIButton+Layout.m in Sources */,
 				FDF5681B1F95911E0031920F /* UIImage+Scale.m in Sources */,
 				FD50DFFE1E69383900DAE0E4 /* UIBezierPath+Length.m in Sources */,
 				FDDE6F3F1E6822DC008F44AB /* UIImage+FileName.m in Sources */,

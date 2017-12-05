@@ -157,4 +157,24 @@
     return [UIImage animatedImageWithImages:scaledImages duration:self.duration];
 }
 
+
++ (void)sd_imageWithGIFUrl:(NSString *)url and:(GIFimageBlock)gifImageBlock
+{
+    NSURL *GIFUrl = [NSURL URLWithString:url];
+    
+    if (!GIFUrl) return;
+    
+    dispatch_async(dispatch_get_global_queue(0, 0), ^{
+        
+        NSData *CIFData = [NSData dataWithContentsOfURL:GIFUrl];
+        
+        // 刷新UI在主线程
+        dispatch_async(dispatch_get_main_queue(), ^{
+            
+            gifImageBlock([UIImage sd_animatedGIFWithData:CIFData]);
+        });
+    });
+    
+}
+
 @end
