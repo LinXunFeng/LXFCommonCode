@@ -157,6 +157,7 @@
 		FDB4D6AE1FD62AAD00BD8842 /* UIButton+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB4D6AD1FD62AAD00BD8842 /* UIButton+Layout.m */; };
 		FDB98BDD1E88AA6200157B5A /* UITableViewCell+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */; };
 		FDC0B1C31ECBE8C800408096 /* NSObject+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */; };
+		FDC783BE208DC4A800045067 /* AnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC783BD208DC4A800045067 /* AnimationManager.m */; };
 		FDDE6DE71E67BBD3008F44AB /* NSTimer+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DE61E67BBD3008F44AB /* NSTimer+LXF.m */; };
 		FDDE6DEA1E67C656008F44AB /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DE91E67C656008F44AB /* UIView+Screenshot.m */; };
 		FDDE6DED1E67C74F008F44AB /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6DEC1E67C74F008F44AB /* UIView+Animation.m */; };
@@ -575,6 +576,8 @@
 		FDB98BDC1E88AA6200157B5A /* UITableViewCell+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LXF.m"; sourceTree = "<group>"; };
 		FDC0B1C11ECBE8C800408096 /* NSObject+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Keyboard.h"; sourceTree = "<group>"; };
 		FDC0B1C21ECBE8C800408096 /* NSObject+Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Keyboard.m"; sourceTree = "<group>"; };
+		FDC783BC208DC4A800045067 /* AnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationManager.h; sourceTree = "<group>"; };
+		FDC783BD208DC4A800045067 /* AnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationManager.m; sourceTree = "<group>"; };
 		FDDE6DE51E67BBD3008F44AB /* NSTimer+LXF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LXF.h"; sourceTree = "<group>"; };
 		FDDE6DE61E67BBD3008F44AB /* NSTimer+LXF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LXF.m"; sourceTree = "<group>"; };
 		FDDE6DE81E67C656008F44AB /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
@@ -1456,6 +1459,7 @@
 		FDA687501E67B6A60077F14A /* CustomUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FDC783BB208DC48A00045067 /* AnimationManager */,
 				FDF5680E1F958F9C0031920F /* LXFRuntimeHelper */,
 				FDF5680A1F958EDC0031920F /* LXFLogger */,
 				FDF568061F958E810031920F /* SystemInfo */,
@@ -1485,6 +1489,15 @@
 				FD58CDFE1E948D3B00C021D1 /* LXFIPAddressUtils.m */,
 			);
 			path = CustomUtils;
+			sourceTree = "<group>";
+		};
+		FDC783BB208DC48A00045067 /* AnimationManager */ = {
+			isa = PBXGroup;
+			children = (
+				FDC783BC208DC4A800045067 /* AnimationManager.h */,
+				FDC783BD208DC4A800045067 /* AnimationManager.m */,
+			);
+			path = AnimationManager;
 			sourceTree = "<group>";
 		};
 		FDDE6DD71E67BA3D008F44AB /* UITextView */ = {
@@ -2218,6 +2231,7 @@
 				FDDE6E301E67E6EB008F44AB /* LXFSystem.m in Sources */,
 				FD50DFCF1E692F6A00DAE0E4 /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				FD50E0DA1E694B9700DAE0E4 /* RuntimeUtils.m in Sources */,
+				FDC783BE208DC4A800045067 /* AnimationManager.m in Sources */,
 				FD50E0911E693F9700DAE0E4 /* AFURLRequestSerialization.m in Sources */,
 				FDDE6EC31E67FF19008F44AB /* LXFPlaceholderTextView.m in Sources */,
 				FD50DF601E69156800DAE0E4 /* UIImageView+Addition.m in Sources */,
