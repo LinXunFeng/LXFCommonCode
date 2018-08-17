@@ -123,6 +123,7 @@
 		FD50E0B91E69407700DAE0E4 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0AB1E69407700DAE0E4 /* CacheManager.m */; };
 		FD50E0BC1E69407700DAE0E4 /* RefreshUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0B11E69407700DAE0E4 /* RefreshUtil.m */; };
 		FD50E0DA1E694B9700DAE0E4 /* RuntimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0D91E694B9700DAE0E4 /* RuntimeUtils.m */; };
+		FD53A8682126A00400299CEB /* OrientationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = FD53A8672126A00400299CEB /* OrientationTool.m */; };
 		FD58CDE61E948A3100C021D1 /* LXFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDE51E948A3100C021D1 /* LXFProgressHUD.m */; };
 		FD58CDF21E948A5B00C021D1 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDE91E948A5B00C021D1 /* SVIndefiniteAnimatedView.m */; };
 		FD58CDF31E948A5B00C021D1 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDEB1E948A5B00C021D1 /* SVProgressAnimatedView.m */; };
@@ -509,6 +510,8 @@
 		FD50E0B11E69407700DAE0E4 /* RefreshUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefreshUtil.m; sourceTree = "<group>"; };
 		FD50E0D81E694B9700DAE0E4 /* RuntimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeUtils.h; sourceTree = "<group>"; };
 		FD50E0D91E694B9700DAE0E4 /* RuntimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeUtils.m; sourceTree = "<group>"; };
+		FD53A8662126A00400299CEB /* OrientationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrientationTool.h; sourceTree = "<group>"; };
+		FD53A8672126A00400299CEB /* OrientationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrientationTool.m; sourceTree = "<group>"; };
 		FD58CDE41E948A3100C021D1 /* LXFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFProgressHUD.h; sourceTree = "<group>"; };
 		FD58CDE51E948A3100C021D1 /* LXFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFProgressHUD.m; sourceTree = "<group>"; };
 		FD58CDE81E948A5B00C021D1 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
@@ -1087,6 +1090,15 @@
 			path = TMCache;
 			sourceTree = "<group>";
 		};
+		FD53A86521269FEA00299CEB /* OrientationTool */ = {
+			isa = PBXGroup;
+			children = (
+				FD53A8662126A00400299CEB /* OrientationTool.h */,
+				FD53A8672126A00400299CEB /* OrientationTool.m */,
+			);
+			path = OrientationTool;
+			sourceTree = "<group>";
+		};
 		FD58CDE31E948A3100C021D1 /* LXFProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -1472,6 +1484,7 @@
 		FDA687501E67B6A60077F14A /* CustomUtils */ = {
 			isa = PBXGroup;
 			children = (
+				FD53A86521269FEA00299CEB /* OrientationTool */,
 				FDC783BB208DC48A00045067 /* AnimationManager */,
 				FDF5680E1F958F9C0031920F /* LXFRuntimeHelper */,
 				FDF5680A1F958EDC0031920F /* LXFLogger */,
@@ -2311,6 +2324,7 @@
 				FD50DF921E691E2500DAE0E4 /* UINavigationItem+Loading.m in Sources */,
 				FD50E0581E693A4B00DAE0E4 /* UIView+Recursion.m in Sources */,
 				FD50DFDE1E69314D00DAE0E4 /* UITextField+History.m in Sources */,
+				FD53A8682126A00400299CEB /* OrientationTool.m in Sources */,
 				FDF5680D1F958EEB0031920F /* LXFLogger.m in Sources */,
 				FD50DFFF1E69383900DAE0E4 /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
 				FDF568271F9596620031920F /* UIView+Layer.m in Sources */,
