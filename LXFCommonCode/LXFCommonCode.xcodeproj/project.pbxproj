@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD1178882189692C0014406A /* NSString+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1178872189692C0014406A /* NSString+Number.m */; };
 		FD4DF8551E6C3DA500228799 /* UITabBar+RangeClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */; };
 		FD4DF85F1E6C3E8900228799 /* UIApplication+ApplicationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8581E6C3E8900228799 /* UIApplication+ApplicationSize.m */; };
 		FD4DF8601E6C3E8900228799 /* UIApplication+KeyboardFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF85A1E6C3E8900228799 /* UIApplication+KeyboardFrame.m */; };
@@ -104,7 +105,6 @@
 		FD50E0911E693F9700DAE0E4 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0671E693F9700DAE0E4 /* AFURLRequestSerialization.m */; };
 		FD50E0921E693F9700DAE0E4 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0691E693F9700DAE0E4 /* AFURLResponseSerialization.m */; };
 		FD50E0931E693F9700DAE0E4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E06B1E693F9700DAE0E4 /* AFURLSessionManager.m */; };
-		FD50E0941E693F9700DAE0E4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FD50E06C1E693F9700DAE0E4 /* LICENSE */; };
 		FD50E0951E693F9700DAE0E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FD50E06D1E693F9700DAE0E4 /* README.md */; };
 		FD50E0961E693F9700DAE0E4 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0701E693F9700DAE0E4 /* AFAutoPurgingImageCache.m */; };
 		FD50E0971E693F9700DAE0E4 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0721E693F9700DAE0E4 /* AFImageDownloader.m */; };
@@ -115,7 +115,6 @@
 		FD50E09C1E693F9700DAE0E4 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E07E1E693F9700DAE0E4 /* UIProgressView+AFNetworking.m */; };
 		FD50E09D1E693F9700DAE0E4 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0801E693F9700DAE0E4 /* UIRefreshControl+AFNetworking.m */; };
 		FD50E09E1E693F9700DAE0E4 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0821E693F9700DAE0E4 /* UIWebView+AFNetworking.m */; };
-		FD50E09F1E693F9700DAE0E4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = FD50E0841E693F9700DAE0E4 /* LICENSE.txt */; };
 		FD50E0A01E693F9700DAE0E4 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0851E693F9700DAE0E4 /* README.md */; };
 		FD50E0A11E693F9700DAE0E4 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E0881E693F9700DAE0E4 /* TMCache.m */; };
 		FD50E0A21E693F9700DAE0E4 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50E08B1E693F9700DAE0E4 /* TMDiskCache.m */; };
@@ -187,7 +186,6 @@
 		FDDE6E3A1E67E9A3008F44AB /* NSObject+LXF.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E391E67E9A3008F44AB /* NSObject+LXF.m */; };
 		FDDE6E3D1E67EB19008F44AB /* NSString+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E3C1E67EB19008F44AB /* NSString+URL.m */; };
 		FDDE6E401E67EC9C008F44AB /* UIView+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E3F1E67EC9C008F44AB /* UIView+Action.m */; };
-		FDDE6E471E67ED58008F44AB /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FDDE6E431E67ED58008F44AB /* LICENSE */; };
 		FDDE6E481E67ED58008F44AB /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E451E67ED58008F44AB /* MBProgressHUD.m */; };
 		FDDE6E491E67ED58008F44AB /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E461E67ED58008F44AB /* README.mdown */; };
 		FDDE6E4C1E67ED92008F44AB /* UIViewController+MBPHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDE6E4B1E67ED92008F44AB /* UIViewController+MBPHUD.m */; };
@@ -278,6 +276,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD1178862189692C0014406A /* NSString+Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Number.h"; sourceTree = "<group>"; };
+		FD1178872189692C0014406A /* NSString+Number.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Number.m"; sourceTree = "<group>"; };
 		FD4DF8531E6C3DA500228799 /* UITabBar+RangeClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RangeClick.h"; sourceTree = "<group>"; };
 		FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RangeClick.m"; sourceTree = "<group>"; };
 		FD4DF8571E6C3E8900228799 /* UIApplication+ApplicationSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ApplicationSize.h"; sourceTree = "<group>"; };
@@ -1424,6 +1424,8 @@
 				FDDE6E921E67FA2B008F44AB /* NSString+UUID.m */,
 				FDDE6E941E67FA59008F44AB /* NSString+XML.h */,
 				FDDE6E951E67FA59008F44AB /* NSString+XML.m */,
+				FD1178862189692C0014406A /* NSString+Number.h */,
+				FD1178872189692C0014406A /* NSString+Number.m */,
 			);
 			path = NSString;
 			sourceTree = "<group>";
@@ -2100,12 +2102,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD58CDF41E948A5B00C021D1 /* SVProgressHUD.bundle in Resources */,
-				FD50E09F1E693F9700DAE0E4 /* LICENSE.txt in Resources */,
 				FDA687191E67AA8D0077F14A /* LaunchScreen.storyboard in Resources */,
 				FDA687161E67AA8D0077F14A /* Assets.xcassets in Resources */,
-				FDDE6E471E67ED58008F44AB /* LICENSE in Resources */,
 				FDA687141E67AA8D0077F14A /* Main.storyboard in Resources */,
-				FD50E0941E693F9700DAE0E4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2362,6 +2361,7 @@
 				FDDE6E8D1E67F9C6008F44AB /* NSString+Trims.m in Sources */,
 				FD50DFBD1E69215400DAE0E4 /* UISearchBar+Blocks.m in Sources */,
 				FD50E0A01E693F9700DAE0E4 /* README.md in Sources */,
+				FD1178882189692C0014406A /* NSString+Number.m in Sources */,
 				FDDE6E841E67F8E3008F44AB /* NSString+Ruby.m in Sources */,
 				FDDE6E131E67CFF2008F44AB /* NSAttributedString+LXF.m in Sources */,
 				FDDE6F141E681DF3008F44AB /* UIButton+Indicator.m in Sources */,
