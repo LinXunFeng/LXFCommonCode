@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD1178882189692C0014406A /* NSString+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = FD1178872189692C0014406A /* NSString+Number.m */; };
+		FD4A4F0A239F4497005F8CB6 /* UIColor+Delta.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4A4F09239F4497005F8CB6 /* UIColor+Delta.m */; };
 		FD4DF8551E6C3DA500228799 /* UITabBar+RangeClick.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */; };
 		FD4DF85F1E6C3E8900228799 /* UIApplication+ApplicationSize.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF8581E6C3E8900228799 /* UIApplication+ApplicationSize.m */; };
 		FD4DF8601E6C3E8900228799 /* UIApplication+KeyboardFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4DF85A1E6C3E8900228799 /* UIApplication+KeyboardFrame.m */; };
@@ -278,6 +279,8 @@
 /* Begin PBXFileReference section */
 		FD1178862189692C0014406A /* NSString+Number.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Number.h"; sourceTree = "<group>"; };
 		FD1178872189692C0014406A /* NSString+Number.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Number.m"; sourceTree = "<group>"; };
+		FD4A4F08239F4497005F8CB6 /* UIColor+Delta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Delta.h"; sourceTree = "<group>"; };
+		FD4A4F09239F4497005F8CB6 /* UIColor+Delta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Delta.m"; sourceTree = "<group>"; };
 		FD4DF8531E6C3DA500228799 /* UITabBar+RangeClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+RangeClick.h"; sourceTree = "<group>"; };
 		FD4DF8541E6C3DA500228799 /* UITabBar+RangeClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+RangeClick.m"; sourceTree = "<group>"; };
 		FD4DF8571E6C3E8900228799 /* UIApplication+ApplicationSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+ApplicationSize.h"; sourceTree = "<group>"; };
@@ -1639,6 +1642,8 @@
 				FD50E0251E69393A00DAE0E4 /* UIColor+Random.m */,
 				FD50E0261E69393A00DAE0E4 /* UIColor+Web.h */,
 				FD50E0271E69393A00DAE0E4 /* UIColor+Web.m */,
+				FD4A4F08239F4497005F8CB6 /* UIColor+Delta.h */,
+				FD4A4F09239F4497005F8CB6 /* UIColor+Delta.m */,
 			);
 			path = UIColor;
 			sourceTree = "<group>";
@@ -2083,6 +2088,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -2349,6 +2355,7 @@
 				FD50DFE71E6931FD00DAE0E4 /* UITextView+PinchZoom.m in Sources */,
 				FD50E0A31E693F9700DAE0E4 /* TMMemoryCache.m in Sources */,
 				FD50E08E1E693F9700DAE0E4 /* AFHTTPSessionManager.m in Sources */,
+				FD4A4F0A239F4497005F8CB6 /* UIColor+Delta.m in Sources */,
 				FD58CDF21E948A5B00C021D1 /* SVIndefiniteAnimatedView.m in Sources */,
 				FDA687561E67B7270077F14A /* UserDefaultsUtils.m in Sources */,
 				FDDE6F1D1E681EF7008F44AB /* UIButton+TouchAreaInsets.m in Sources */,
