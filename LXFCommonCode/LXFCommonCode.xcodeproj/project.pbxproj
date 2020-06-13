@@ -136,6 +136,7 @@
 		FD5BE41C1E8523330089AFD4 /* UIView+Xib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */; };
 		FD5F98401F1526AB000E7E45 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F983F1F1526AB000E7E45 /* UIView+Color.m */; };
 		FD94753824947D1C00C69EC3 /* UIViewController+LifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94753724947D1C00C69EC3 /* UIViewController+LifeCycle.m */; };
+		FD94753B2494878300C69EC3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94753A2494878300C69EC3 /* SecondViewController.m */; };
 		FD94ED4E1E9631DB006D7A37 /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */; };
 		FD9DD53F2005BE8C00DFBE9D /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DD53D2005BE8B00DFBE9D /* UIImage+Compress.m */; };
 		FDA6870B1E67AA8D0077F14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870A1E67AA8D0077F14A /* main.m */; };
@@ -540,6 +541,8 @@
 		FD5F983F1F1526AB000E7E45 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
 		FD94753624947D1C00C69EC3 /* UIViewController+LifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LifeCycle.h"; sourceTree = "<group>"; };
 		FD94753724947D1C00C69EC3 /* UIViewController+LifeCycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCycle.m"; sourceTree = "<group>"; };
+		FD9475392494878300C69EC3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FD94753A2494878300C69EC3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FD94ED4C1E9631DB006D7A37 /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
 		FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
 		FD9DD53D2005BE8B00DFBE9D /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
@@ -1155,6 +1158,8 @@
 				FDA6870D1E67AA8D0077F14A /* AppDelegate.m */,
 				FDA6870F1E67AA8D0077F14A /* ViewController.h */,
 				FDA687101E67AA8D0077F14A /* ViewController.m */,
+				FD9475392494878300C69EC3 /* SecondViewController.h */,
+				FD94753A2494878300C69EC3 /* SecondViewController.m */,
 				FDA687121E67AA8D0077F14A /* Main.storyboard */,
 				FDA687151E67AA8D0077F14A /* Assets.xcassets */,
 				FDA687171E67AA8D0077F14A /* LaunchScreen.storyboard */,
@@ -2326,6 +2331,7 @@
 				FD50DFF11E69332200DAE0E4 /* UIWindow+Hierarchy.m in Sources */,
 				FD50E0A21E693F9700DAE0E4 /* TMDiskCache.m in Sources */,
 				FD50DF721E691A6900DAE0E4 /* UILabel+AutomaticWriting.m in Sources */,
+				FD94753B2494878300C69EC3 /* SecondViewController.m in Sources */,
 				FD50E02B1E69393A00DAE0E4 /* UIColor+Random.m in Sources */,
 				FD50E0591E693A4B00DAE0E4 /* UIView+Shake.m in Sources */,
 				FD50E09A1E693F9700DAE0E4 /* UIButton+AFNetworking.m in Sources */,
