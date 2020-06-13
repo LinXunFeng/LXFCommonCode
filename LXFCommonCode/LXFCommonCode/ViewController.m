@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIViewController+LifeCycle.h"
 
 @interface ViewController ()
 
@@ -23,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewControllerLifeCycle lifeCycle = self.lifeCycle;
+    NSLog(@"LifeCycle -- %ld", lifeCycle);
 }
 
 

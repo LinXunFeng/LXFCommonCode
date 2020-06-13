@@ -135,6 +135,7 @@
 		FD58CDFF1E948D3B00C021D1 /* LXFIPAddressUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = FD58CDFE1E948D3B00C021D1 /* LXFIPAddressUtils.m */; };
 		FD5BE41C1E8523330089AFD4 /* UIView+Xib.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */; };
 		FD5F98401F1526AB000E7E45 /* UIView+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F983F1F1526AB000E7E45 /* UIView+Color.m */; };
+		FD94753824947D1C00C69EC3 /* UIViewController+LifeCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94753724947D1C00C69EC3 /* UIViewController+LifeCycle.m */; };
 		FD94ED4E1E9631DB006D7A37 /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */; };
 		FD9DD53F2005BE8C00DFBE9D /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9DD53D2005BE8B00DFBE9D /* UIImage+Compress.m */; };
 		FDA6870B1E67AA8D0077F14A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA6870A1E67AA8D0077F14A /* main.m */; };
@@ -537,6 +538,8 @@
 		FD5BE41B1E8523330089AFD4 /* UIView+Xib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Xib.m"; sourceTree = "<group>"; };
 		FD5F983E1F1526AB000E7E45 /* UIView+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Color.h"; sourceTree = "<group>"; };
 		FD5F983F1F1526AB000E7E45 /* UIView+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Color.m"; sourceTree = "<group>"; };
+		FD94753624947D1C00C69EC3 /* UIViewController+LifeCycle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LifeCycle.h"; sourceTree = "<group>"; };
+		FD94753724947D1C00C69EC3 /* UIViewController+LifeCycle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LifeCycle.m"; sourceTree = "<group>"; };
 		FD94ED4C1E9631DB006D7A37 /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
 		FD94ED4D1E9631DB006D7A37 /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
 		FD9DD53D2005BE8B00DFBE9D /* UIImage+Compress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
@@ -1706,6 +1709,8 @@
 				FDDE6E4B1E67ED92008F44AB /* UIViewController+MBPHUD.m */,
 				FD502C261E83B68300F1C6F7 /* UIViewController+HideKeyBoard.h */,
 				FD502C271E83B68300F1C6F7 /* UIViewController+HideKeyBoard.m */,
+				FD94753624947D1C00C69EC3 /* UIViewController+LifeCycle.h */,
+				FD94753724947D1C00C69EC3 /* UIViewController+LifeCycle.m */,
 			);
 			path = UIViewController;
 			sourceTree = "<group>";
@@ -2328,6 +2333,7 @@
 				FD50DFB61E6920F400DAE0E4 /* UIScrollView+EmptyDataSet.m in Sources */,
 				FD50DF921E691E2500DAE0E4 /* UINavigationItem+Loading.m in Sources */,
 				FD50E0581E693A4B00DAE0E4 /* UIView+Recursion.m in Sources */,
+				FD94753824947D1C00C69EC3 /* UIViewController+LifeCycle.m in Sources */,
 				FD50DFDE1E69314D00DAE0E4 /* UITextField+History.m in Sources */,
 				FD53A8682126A00400299CEB /* OrientationTool.m in Sources */,
 				FDF5680D1F958EEB0031920F /* LXFLogger.m in Sources */,
